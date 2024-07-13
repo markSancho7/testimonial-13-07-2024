@@ -1,5 +1,23 @@
+import Card from './components/card/Card';
+import { CARDSINFO } from './constants/CARDSINFO';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return CARDSINFO.map(card => {
+		return (
+			<Card
+				key={card.id}
+				img={card.img}
+				title={card.title}
+				subtitle={card.subtitle}
+				principalText={card.principalText}
+				secondText={card.secondText}
+				$cardWidth={card.$width}
+				$cardHeight={card.$height}
+				$backgroundColor={card.$backgroundColor}
+				$textColor={card.$textColor}
+			/>
+		);
+	});
 };
 
 export default App;
