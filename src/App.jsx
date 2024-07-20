@@ -11,8 +11,8 @@ const App = () => {
 				subtitle={card.subtitle}
 				principalText={card.principalText}
 				secondText={card.secondText}
-				$cardWidth={card.$width}
-				$cardHeight={card.$height}
+				$cardWidth={card.$cardWidth}
+				$cardHeight={card.$cardHeight}
 				$backgroundColor={card.$backgroundColor}
 				$textColor={card.$textColor}
 			/>

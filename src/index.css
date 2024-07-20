@@ -1,4 +1,9 @@
 body {
-	font-family: sans-serif;
+	font-family: "Barlow Semi Condensed", sans-serif;
 	background-color: gray;
+}
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
