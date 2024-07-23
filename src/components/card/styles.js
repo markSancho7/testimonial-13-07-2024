@@ -2,11 +2,14 @@ import styled from 'styled-components';
 
 const StyledContainer = styled.div`
 	padding: 30px;
+	padding-top: 20px;
 	border-radius: 10px;
 	background-color: ${props => props.$backgroundColor};
 	width: ${props => props.$cardWidth};
 	height: ${props => props.$cardHeight};
 	color: ${props => props.$textColor};
+	grid-column: ${props => props.$gridColum};
+	grid-row: ${props => props.$gridRow};
 `;
 const StyledImgAndName = styled.div`
 	display: flex;

@@ -17,6 +17,8 @@ const Card = props => {
 			$textColor={props.$textColor}
 			$cardHeight={props.$cardHeight}
 			$cardWidth={props.$cardWidth}
+			$gridColum={props.$gridColum}
+			$gridRow={props.$gridRow}
 		>
 			<StyledImgAndName>
 				<StyledImg src={props.img} alt='' />

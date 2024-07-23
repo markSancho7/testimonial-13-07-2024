@@ -10,10 +10,12 @@ export const CARDSINFO = [
 			'I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.',
 		secondText:
 			'“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the  best - and most grueling - time of my life. Since completing the course, I’ve  successfully switched careers, working as a Software Engineer at a VR startup. ”',
-		$cardWidth: '540px',
+		$cardWidth: '510px',
 		$cardHeight: '282px',
 		$backgroundColor: '#A775F1',
-		$textColor: 'white'
+		$textColor: 'white',
+		$gridColum: '1/2',
+		$gridRow: '1'
 	},
 	{
 		id: v4(),
@@ -26,7 +28,9 @@ export const CARDSINFO = [
 		$cardWidth: '255px',
 		$cardHeight: '282px',
 		$backgroundColor: '#48556A',
-		$textColor: 'white'
+		$textColor: 'white',
+		$gridColum: '2/3',
+		$gridRow: '1'
 	},
 	{
 		id: v4(),
@@ -39,7 +43,9 @@ export const CARDSINFO = [
 		$cardWidth: '255px',
 		$cardHeight: '266px',
 		$backgroundColor: '#FFFFFF',
-		$textColor: 'black'
+		$textColor: 'black',
+		$gridColum: '1/2',
+		$gridRow: '2'
 	},
 	{
 		id: v4(),
@@ -53,11 +59,13 @@ export const CARDSINFO = [
 		$cardWidth: '540px',
 		$cardHeight: '266px',
 		$backgroundColor: '#19202D',
-		$textColor: 'white'
+		$textColor: 'white',
+		$gridColum: '2/3',
+		$gridRow: '2'
 	},
 	{
 		id: v4(),
-		img: '',
+		img: 'public/image-kira.jpg',
 		title: 'Kira Whittle',
 		subtitle: 'Verified Graduate',
 		principalText: 'Such a life-changing experience. Highly recommended!',
@@ -66,6 +74,8 @@ export const CARDSINFO = [
 		$cardWidth: '255px',
 		$cardHeight: '572px',
 		$backgroundColor: '#FFFFFF',
-		$textColor: 'black'
+		$textColor: 'black',
+		$gridColum: '3/4',
+		$gridRow: '1'
 	}
 ];
